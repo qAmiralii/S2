@@ -1,5 +1,5 @@
 .div-head {
-    display: inline-block;
+    display: flex;
     width: 40%;
     height: 10vh;
     background-color: rgb(52, 52, 52);
@@ -7,6 +7,8 @@
 }
 
 .h-p{
+
+    width: 80%;
     color: white;
 }
 .div-head1 {
@@ -19,9 +21,8 @@
 }
 
 .h-li,#verna,.h-p{
-
+    transition: all 1s;
     cursor: pointer;
-
 }
 .container {
     border-bottom: solid white 0.5px;
@@ -30,7 +31,7 @@
 }
 
 ul > li {
-    display: inline;
+    display: inline-block;
     margin: 0 2.5em 0 0;
     color: white;
 }
@@ -45,4 +46,13 @@ ul > li {
 
 #verna {
     width: 100%;
+}
+#verna:hover{
+    transform: scale(1.2);
+}
+.h-p:hover{
+    transform: scale(1.2);
+}
+.h-li:hover{
+    transform: scale(1.2);
 }

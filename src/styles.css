@@ -1,9 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 body{
     margin: 0;
-    background-color: rgb(255, 144, 84);
+    background-color: rgb(40, 40, 40);
+
 }
-ul li{
-    font-size: large;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ul li,.h-p{
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

@@ -1,4 +1,4 @@
-.container{
+    .container{
     padding: 0 1vw;
 }
 .d-container{
@@ -7,7 +7,7 @@
 }
 ul > li{
     color: white;
-    padding: 0.2em 1.1em;
+    padding: 0.3em 1.1em;
     padding-bottom: 0.5em;
     list-style-type: none;
     text-align: right;
@@ -17,6 +17,9 @@ ul > li:hover{
     background-color: rgba(16, 16, 16, 0.736);
     cursor: pointer;
 }
+.f-d:hover{
+    cursor: pointer;
+}
 .m-img{
     width: 100%;
 }
@@ -24,8 +27,7 @@ ul > li:hover{
     padding: 0;
 }
 .right-menu{
-    border-left: 0.5px solid white;
-    border-bottom: 0.5px solid white;
+    border-left: 0.5px solid rgb(255, 255, 255);
 }
 .bd{
     width: 95%;
@@ -34,11 +36,31 @@ ul > li:hover{
     padding-top: 4em;
 }
 .f-d{
-    border-left: solid white 0.5px;
+    border-right: solid white 0.5px;
     border-bottom: solid white 0.5px;
     padding: 1%;
 }
 .models{
     width: 50%;
     display: inline-block;
+}
+div.top-m{
+    border-bottom: 0.5px solid rgb(255, 255, 255);
+    position: sticky;
+    top: 0;
+}
+.contact{
+    color: white;
+    padding: 0.3em 1.1em;
+    padding-bottom: 0.5em;
+    list-style-type: none;
+    text-align: right;
+    border-radius: 1em;
+}
+.bottom-m{
+    position: sticky;
+    top: 62vh;
+}
+#spesial{
+    font-size: x-large;
 }
