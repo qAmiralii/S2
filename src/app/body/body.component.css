@@ -1,0 +1,44 @@
+.container{
+    padding: 0 1vw;
+}
+.d-container{
+    display: flex;
+    background-color: rgb(40, 40, 40);
+}
+ul > li{
+    color: white;
+    padding: 0.2em 1.1em;
+    padding-bottom: 0.5em;
+    list-style-type: none;
+    text-align: right;
+    border-radius: 1em;
+}
+ul > li:hover{
+    background-color: rgba(16, 16, 16, 0.736);
+    cursor: pointer;
+}
+.m-img{
+    width: 100%;
+}
+.m-ul{
+    padding: 0;
+}
+.right-menu{
+    border-left: 0.5px solid white;
+    border-bottom: 0.5px solid white;
+}
+.bd{
+    width: 95%;
+}
+.in-db{
+    padding-top: 4em;
+}
+.f-d{
+    border-left: solid white 0.5px;
+    border-bottom: solid white 0.5px;
+    padding: 1%;
+}
+.models{
+    width: 50%;
+    display: inline-block;
+}

@@ -1,0 +1,48 @@
+.div-head {
+    display: inline-block;
+    width: 40%;
+    height: 10vh;
+    background-color: rgb(52, 52, 52);
+    text-align: center;
+}
+
+.h-p{
+    color: white;
+}
+.div-head1 {
+    text-align: center;
+    display: inline-block;
+    width: 20%;
+    height: 10vh;
+
+    background-color: rgb(52, 52, 52);
+}
+
+.h-li,#verna,.h-p{
+
+    cursor: pointer;
+
+}
+.container {
+    border-bottom: solid white 0.5px;
+    text-align: center;
+    display: flex;
+}
+
+ul > li {
+    display: inline;
+    margin: 0 2.5em 0 0;
+    color: white;
+}
+
+.h-img {
+    padding-top: 4%;
+    display: inline-block;
+    width: 11.3vw;
+    background-color: rgb(52, 52, 52);
+    
+}
+
+#verna {
+    width: 100%;
+}
